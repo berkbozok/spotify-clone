@@ -100,7 +100,7 @@ function Player() {
             
 
             spotifyApi.setVolume(volume).catch((err)=>{});
-        },100,[])
+        },200,[])
     )
 
 
