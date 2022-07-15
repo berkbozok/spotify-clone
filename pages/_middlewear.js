@@ -6,15 +6,15 @@ export async function middleware(req){
     const token = await getToken({req,secret:process.env.JWT_SECRET});
 
 
-    const { pathname } = req.nextUrl;
+    const { pathName } = req.nextUrl;
 
     //allow the request if the following is true
     //here!! it does not return back to login
-    if(pathname.includes("/api/auth") || token){
+    if(pathName.includes("/api/auth") || token){
         return NextResponse.next();
     }
 
-    if(!token && pathname !== "/login"){
+    if(!token && pathName !== "/login"){
 
         return NextResponse.redirect("/login");
     }
