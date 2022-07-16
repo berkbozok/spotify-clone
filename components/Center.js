@@ -49,7 +49,7 @@ function Center(){
        console.log(playlist);
 
     return(
-        //image not visible 
+       
         <div className="flex-grow h-screen overflow-y-scroll scrollbar-hide">
            
 
