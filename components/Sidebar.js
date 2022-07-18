@@ -64,7 +64,7 @@ function Sidebar(){
                         <p>Your Library</p>
                     </button>
 
-                    <hr className="border-t-[0.1px] border-gray-900"></hr>
+                    <hr className="border-t-[0.1px] border-gray-600"></hr>
 
 
                     <button className="flex items-center space-x-2 hover:text-white"> 
