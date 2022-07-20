@@ -116,6 +116,9 @@ function Player() {
 
                     <p className="w-36 lg:w-64 text-white truncate">{songInfo?.name}</p>
 
+
+
+
                     
                     <p className="w-40">{songInfo?.artist?.[0]?.name}</p>
 
